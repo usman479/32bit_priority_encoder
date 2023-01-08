@@ -1,0 +1,143 @@
+$date
+	Sat Jan 07 16:57:29 2023
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module tb $end
+$var wire 5 ! out [4:0] $end
+$var reg 32 " inp [31:0] $end
+$scope module dut $end
+$var wire 1 # gs $end
+$var wire 32 $ i [31:0] $end
+$var wire 3 % out4 [2:0] $end
+$var wire 3 & out3 [2:0] $end
+$var wire 3 ' out2 [2:0] $end
+$var wire 3 ( out1 [2:0] $end
+$var wire 5 ) out [4:0] $end
+$var wire 1 * gs4 $end
+$var wire 1 + gs3 $end
+$var wire 1 , gs2 $end
+$var wire 1 - gs1 $end
+$var wire 1 . eo3 $end
+$var wire 1 / eo2 $end
+$var wire 1 0 eo1 $end
+$scope module encoder1 $end
+$var wire 1 1 en $end
+$var wire 1 0 eo $end
+$var wire 1 - gs $end
+$var wire 8 2 i [7:0] $end
+$var wire 3 3 out [2:0] $end
+$upscope $end
+$scope module encoder2 $end
+$var wire 1 0 en $end
+$var wire 1 / eo $end
+$var wire 1 , gs $end
+$var wire 8 4 i [7:0] $end
+$var wire 3 5 out [2:0] $end
+$upscope $end
+$scope module encoder3 $end
+$var wire 1 / en $end
+$var wire 1 . eo $end
+$var wire 1 + gs $end
+$var wire 8 6 i [7:0] $end
+$var wire 3 7 out [2:0] $end
+$upscope $end
+$scope module encoder4 $end
+$var wire 1 . en $end
+$var wire 1 8 eo $end
+$var wire 1 * gs $end
+$var wire 8 9 i [7:0] $end
+$var wire 3 : out [2:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+b111 :
+b11111111 9
+18
+b111 7
+b11101111 6
+b111 5
+b11111111 4
+b0 3
+b1111111 2
+01
+10
+1/
+1.
+0-
+1,
+1+
+1*
+b11111 )
+b0 (
+b111 '
+b111 &
+b111 %
+b1111111111111111110111111111111 $
+1#
+b1111111111111111110111111111111 "
+b11111 !
+$end
+#100
+18
+1*
+1.
+1+
+b11100 !
+b11100 )
+b11 (
+b11 3
+1/
+1,
+0-
+10
+b11101111 2
+b11111111 6
+b11101111111111111111111111111111 "
+b11101111111111111111111111111111 $
+#200
+0*
+0.
+1+
+b0 !
+b0 )
+0/
+1,
+1-
+00
+b111 (
+b111 3
+b11111111 2
+b11111110 9
+b11111111111111111111111111111110 "
+b11111111111111111111111111111110 $
+#300
+b1 !
+b1 )
+b110 %
+b110 :
+b11111101 9
+b11111111111111111111111111111101 "
+b11111111111111111111111111111101 $
+#400
+0#
+1*
+08
+b0 !
+b0 )
+b111 %
+b111 :
+b11111111 9
+b11111111111111111111111111111111 "
+b11111111111111111111111111111111 $
+#500
